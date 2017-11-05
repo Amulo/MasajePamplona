@@ -47,6 +47,7 @@
           <li><a href="#about">Acerca de...</a></li>
           <li><a href="#service">Servicios</a></li>
           <li><a href="#contact">Contacto</a></li>
+		   <li><a href="#" onclick="navigator.app.exitApp();">Salir</a></li>
          <!-- <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
             <ul class="dropdown-menu">
@@ -86,7 +87,7 @@
           <div class="col-lg-8 col-lg-offset-2">
             <div class="wow bounceInDown" data-wow-delay="0.4s">
               <div class="section-heading">
-                <h2>Ofrecemos una amplia variedad de tratamientos de bienestar en Pamplona</h2>
+                <h2>Ofrecemos una amplia variedad de terapias de bienestar en Pamplona</h2>
 				<p> Estamos ubicados en Calle Navas De Tolosa, Galeria Comercial Hotel Tres Reyes, Navarra, CP 31002. Abrimos el centro en el año 2014, con la ilusión de ofrecer un lugar acogedor, confortable y cálido, donde el/las masajistas le atenderá con un trato personal. Para que pueda disfrutar de su tratamiento al máximo, el centro de masajes qi le ofrece bienestar y relajación cuerpo y mente de la mano de sus masajes y terapias. Espacio único y acondicionado para despertar tus sentidos...aromaterapia, tenue iluminación, música relajante, aceites y esencias.... Mientras estés en el centro de masajesqi nuestro tiempo estará dedicado exclusivamente a ti. En el centro ofertamos varios tipos de masaje: terapéutico para tratar lesiones, deportivo para prevenir sobrecargas musculares, relajantes, circulatorios, anticelulíticos, reflexología podal o masaje craneal entre otros. Usamos aceites 100% naturales de la máxima calidad y creados para aplicaciones específicas: regeneradores, antiarrugas, nutritivos o relajantes. centro de masajes en pamplona, masajista en pamplona, masajes en pamplona.
 				</p>
                 <i class="fa fa-2x fa-angle-down"></i>
@@ -411,6 +412,12 @@ carencias y por lo tanto una pérdida de la Salud.</p>
   <script src="js/jquery.easing.min.js"></script>
   <script src="js/jquery.scrollTo.js"></script>
   <script src="js/wow.min.js"></script>
+  
+  <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
   <!-- Custom Theme JavaScript -->
   <script src="js/custom.js"></script>
   <script src="contactform/contactform.js"></script>
